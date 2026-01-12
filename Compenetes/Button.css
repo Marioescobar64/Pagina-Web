@@ -1,0 +1,43 @@
+/* MENÚ */
+nav {
+    background-color: var(--secundario);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* BOTONES DEL MENÚ */
+nav a {
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(231, 231, 231);
+    padding: 10px 22px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: var(--acento);
+    color: #0f172a;
+    border-color: var(--acento);
+}
+
+/* BOTÓN GENERAL */
+.boton {
+    display: inline-block;
+    background-color: var(--primario);
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.boton:hover {
+    background-color: var(--secundario);
+    transform: scale(1.05);
+}

@@ -1,0 +1,12 @@
+:root {
+    --primario: hsl(0, 82%, 42%);
+    --secundario: #ce6c69;
+    --acento: #38bdf8;
+
+    --fondo: #f1f5f9;
+    --blanco: #ffffff;
+    --texto: #1f2937;
+
+    --footer: #0f172a;
+    --sombra: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
