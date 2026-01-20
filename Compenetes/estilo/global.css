@@ -13,7 +13,7 @@ html, body {
 body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
 
-    background-image: url("/Compenetes/Imagenes/Fondo.jpg");
+    background-image: url("../Imagenes/Fondo.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
